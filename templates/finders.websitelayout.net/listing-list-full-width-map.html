@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- metas -->
+    <meta charset="utf-8">
+    <meta name="author" content="Chitrakoot Web" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="Finders Directory Listing Template" />
+    <meta name="description" content="Finders - Directory Listing Template" />
+
+    <!-- title  -->
+    <title>Finders - Directory Listing Template</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/logos/favicon.png" />
+    <link rel="apple-touch-icon" href="img/logos/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="img/logos/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="img/logos/apple-touch-icon-114x114.png" />
+
+    <!-- plugins -->
+    <link rel="stylesheet" href="css/plugins.css" />
+
+    <!-- search css -->
+    <link rel="stylesheet" href="search/search.css" />
+
+    <!-- core style css -->
+    <link href="css/styles.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <!-- start page loading -->
+    <div id="preloader">
+        <div class="row loader">
+            <div class="loader-icon"></div>
+        </div>
+    </div>
+    <!-- end page loading -->
+
+    <!-- start main-wrapper section -->
+    <div class="main-wrapper">
+
+        <!-- start header section -->
+        <header>
+            <div class="navbar-default">
+                <!-- start top search -->
+                <div class="top-search bg-theme">
+                    <div class="container">
+                        <form class="search-form" action="search.html" method="GET" accept-charset="utf-8">
+                            <div class="input-group">
+                                <span class="input-group-addon cursor-pointer">
+                                    <button class="search-form_submit fas fa-search font-size18 text-white" type="submit"></button>
+                                </span>
+                                <input type="text" class="search-form_input form-control" name="s" autocomplete="off" placeholder="Type & hit enter...">
+                                <span class="input-group-addon close-search"><i class="fas fa-times font-size18 margin-5px-top"></i></span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- end top search -->
+
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-12">
+                            <div class="menu_area">
+                                <nav class="navbar navbar-expand-lg navbar-light no-padding">
+
+                                    <div class="navbar-header navbar-header-custom">
+                                        <!-- start logo -->
+                                        <a href="index.html" class="navbar-brand width-200px sm-width-180px xs-width-150px"><img id="logo" src="img/logos/logo.png" alt="logo"></a>
+                                        <!-- end logo -->
+                                    </div>
+
+                                    <div class="navbar-toggler"></div>
+
+                                    <!-- start menu area -->
+                                    <ul class="navbar-nav ml-auto" id="nav" style="display: none;">
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="javascript:void(0)">Pages</a>
+                                            <ul>
+                                                <li><a href="how-it-works.html">How It Works</a></li>
+                                                <li><a href="elements.html">Elements</a></li>
+                                                <li><a href="pricing.html">Pricing</a></li>
+                                                <li><a href="login.html">Login</a></li>
+                                                <li><a href="registration.html">Register</a></li>
+                                                <li><a href="404-page.html">404 Page</a></li>
+                                                <li><a href="coming-soon.html">Coming Soon</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="javascript:void(0)">User Panel</a>
+                                            <ul>
+                                                <li><a href="admin/index.html">Dashboard</a></li>
+                                                <li><a href="admin/message.html">Message</a></li>
+                                                <li><a href="admin/booking.html">Booking</a></li>
+                                                <li><a href="admin/wallet.html">Wallet</a></li>
+                                                <li><a href="admin/my-listing.html">My Listing</a></li>
+                                                <li><a href="admin/reviews.html">Reviews</a></li>
+                                                <li><a href="admin/bookmark.html">Bookmarks</a></li>
+                                                <li><a href="admin/add-listing.html">Add Listing</a></li>
+                                                <li><a href="admin/my-profile.html">My Profile</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-sub"><span class="submenu-button"></span><span class="submenu-button"></span><a href="#">Listing</a>
+                                            <ul class="row megamenu change-menu sub-menu">
+                                                <li class="col-lg-3 col-sm-12 has-sub"><span class="submenu-button"></span><span class="submenu-button"></span>
+                                                    <span class="margin-10px-bottom display-block sm-no-margin sm-padding-10px-tb sm-padding-30px-lr font-size14 sub-title font-weight-600"><i class="fas fa-address-book margin-10px-right text-theme-color"></i>Listing Without Map</span>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="listing-grid-right-sidebar.html">Grid Right Sidebar</a></li>
+                                                        <li><a href="listing-grid-full-width.html">Grid Fullwidth</a></li>
+                                                        <li><a href="listing-list-right-sidebar.html">List Right Sidebar</a></li>
+                                                        <li><a href="listing-list-full-width.html">List Fullwidth</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="col-lg-3 col-sm-12 has-sub"><span class="submenu-button"></span><span class="submenu-button"></span>
+                                                    <span class="margin-10px-bottom display-block sm-no-margin sm-padding-10px-tb sm-padding-30px-lr font-size14 sub-title font-weight-600"><i class="fas fa-map margin-10px-right text-theme-color"></i>Half Screen Map</span>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="listing-half-screen-map-list.html">List Layout</a></li>
+                                                        <li><a href="listing-half-screen-map-grid.html">Grid Layout</a></li>
+                                                    </ul>
+                                                    <span class="margin-10px-bottom margin-30px-top display-block sm-no-margin sm-padding-10px-tb sm-padding-30px-lr font-size14 text-uppercase sub-title font-weight-600"><i class="fas fa-file-alt margin-10px-right text-theme-color"></i>Single Listing</span>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="listing-details.html">Listing Details</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="col-lg-3 col-sm-12 has-sub"><span class="submenu-button"></span><span class="submenu-button"></span>
+                                                    <span class="margin-10px-bottom display-block sm-no-margin sm-padding-10px-tb sm-padding-30px-lr font-size14 sub-title font-weight-600"><i class="fas fa-th-large margin-10px-right text-theme-color"></i>Listing Grid</span>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="listing-grid-left-sidebar-map.html">Left Sidebar</a></li>
+                                                        <li><a href="listing-grid-right-sidebar-map.html">Right Sidebar</a></li>
+                                                        <li><a href="listing-grid-full-width-map.html">Fullwidth</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="col-lg-3 col-sm-12 has-sub"><span class="submenu-button"></span><span class="submenu-button"></span>
+                                                    <span class="margin-10px-bottom display-block sm-no-margin sm-padding-10px-tb sm-padding-30px-lr font-size14 sub-title font-weight-600"><i class="fas fa-bars margin-10px-right text-theme-color"></i>Listing List</span>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="listing-list-left-sidebar-map.html">Left Sidebar</a></li>
+                                                        <li><a href="listing-list-right-sidebar-map.html">Right Sidebar</a></li>
+                                                        <li><a href="listing-list-full-width-map.html">Fullwidth</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="javascript:void(0)">Blog</a>
+                                            <ul>
+                                                <li><a href="blog-grid.html">Blog Grid</a></li>
+                                                <li><a href="blog-details.html">Blog Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact-us.html">Contact</a></li>
+                                    </ul>
+                                    <!-- end menu area -->
+
+                                    <!-- start attribute navigation -->
+                                    <div class="attr-nav sm-no-margin sm-margin-65px-right xs-margin-55px-right ml-auto">
+                                        <ul class="search">
+                                            <li class="search"><a href="javascript:void(0)"><i class="fas fa-search text-theme-color font-size18 margin-15px-top sm-no-margin-top"></i></a></li>
+                                        </ul>
+                                        <ul class="top-nav-area">
+                                            <li class="dropdown sm-no-margin-right">
+                                                <a href="add-listing.html" class="butn listi md-padding-15px-lr sm-no-padding">
+                                                    <i class="fas fa-plus-circle font-size22 margin-5px-right sm-no-margin-right vertical-align-middle"></i> <span class="vertical-align-middle sm-display-none">Add Listing</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- end attribute navigation -->
+
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end header section -->
+
+        <!-- start page title section -->
+        <section class="no-padding">
+            <iframe class="contact-map" id="gmap_canvas" src="https://maps.google.com/maps?q=london&t=&z=13&ie=UTF8&iwloc=&output=embed" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        </section>
+        <!-- end page title section -->
+
+        <!-- start listing list section -->
+        <section>
+            <div class="container">
+
+                <div class="row margin-30px-bottom">
+                    <div class="col-lg-8 col-md-6 xs-margin-20px-bottom">
+                        <div class="result-show-by-cat">
+                            <strong class="font-size22 xs-font-size18 text-extra-dark-gray">Restaurants </strong> <span class="text-primary padding-15px-left small">Showing 24 results</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 text-right">
+                        <div class="filter-by-grid-list d-flex float-right xs-float-none">
+                            <span class="margin-30px-right">View As</span>
+                            <div class="filter-tab-area">
+                                <ul class="nav nav-tabs no-border-bottom">
+                                    <li>
+                                        <a class="active margin-10px-right font-size22" href="listing-grid-right-sidebar.html"><i class="fa fa-th-large"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="listing-list-right-sidebar.html" class="font-size22"><i class="fa fa-bars"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row margin-50px-bottom">
+                    <div class="col-12">
+                        <div class="border-bottom margin-40px-bottom padding-40px-bottom xs-padding-30px-bottom">
+                            <div class="card card-list border-0">
+                                <div class="row align-items-center">
+                                    <div class="col-md-5 col-lg-4 xs-margin-20px-bottom">
+                                        <div class="card-list-img">
+                                            <img class="border-radius-5" src="img/content/listing-1.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-lg-8">
+                                        <div class="card-body no-padding-tb">
+                                            <div class="star">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h5 class="card-title no-margin-bottom font-size22">
+                                                    <a href="listing-details.html" class="text-extra-dark-gray">Burger House </a>
+                                                </h5>
+                                                <ul class="no-margin-bottom">
+                                                    <li><a href="#"><i class="far fa-heart margin-5px-right"></i>7 k</a></li>
+                                                </ul>
+                                            </div>
+                                            <span>London</span>
+                                            <p class="margin-20px-tb sm-margin-10px-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt labore et dolore magna aliqua. Consectetur adipisici.</p>
+                                            <a href="#" class="text-theme-color">Eat &amp; Drink</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="border-bottom margin-40px-bottom padding-40px-bottom xs-padding-30px-bottom">
+                            <div class="card card-list border-0">
+                                <div class="row align-items-center">
+                                    <div class="col-md-5 col-lg-4 xs-margin-20px-bottom">
+                                        <div class="card-list-img">
+                                            <img class="border-radius-5" src="img/content/listing-2.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-lg-8">
+                                        <div class="card-body no-padding-tb">
+                                            <div class="star">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h5 class="card-title no-margin-bottom font-size22">
+                                                                    <a href="listing-details.html" class="text-extra-dark-gray">Sticky Band</a>
+                                                                </h5>
+                                                <ul class="no-margin-bottom">
+                                                    <li><a href="#"><i class="far fa-heart margin-5px-right"></i>2 k</a></li>
+                                                </ul>
+                                            </div>
+                                            <span>Great North Town MT.</span>
+                                            <p class="margin-20px-tb sm-margin-10px-top">It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
+                                            <a href="#" class="text-theme-color">Event</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="border-bottom margin-40px-bottom padding-40px-bottom xs-padding-30px-bottom">
+                            <div class="card card-list border-0">
+                                <div class="row align-items-center">
+                                    <div class="col-md-5 col-lg-4 xs-margin-20px-bottom">
+                                        <div class="card-list-img">
+                                            <img class="border-radius-5" src="img/content/listing-3.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-lg-8">
+                                        <div class="card-body no-padding-tb">
+                                            <div class="star">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h5 class="card-title no-margin-bottom font-size22">
+                                                                    <a href="listing-details.html" class="text-extra-dark-gray">Hotel Govendor</a>
+                                                                </h5>
+                                                <ul class="no-margin-bottom">
+                                                    <li><a href="#"><i class="far fa-heart margin-5px-right"></i>20 k</a></li>
+                                                </ul>
+                                            </div>
+                                            <span>74 Guild Street 542B</span>
+                                            <p class="margin-20px-tb sm-margin-10px-top">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover.</p>
+                                            <a href="#" class="text-theme-color">Hotel</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="border-bottom margin-40px-bottom padding-40px-bottom xs-padding-30px-bottom">
+                            <div class="card card-list border-0">
+                                <div class="row align-items-center">
+                                    <div class="col-md-5 col-lg-4 xs-margin-20px-bottom">
+                                        <div class="card-list-img">
+                                            <img class="border-radius-5" src="img/content/listing-4.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-lg-8">
+                                        <div class="card-body no-padding-tb">
+                                            <div class="star">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h5 class="card-title no-margin-bottom font-size22">
+                                                                    <a href="listing-details.html" class="text-extra-dark-gray">Premium Fitness Gym</a>
+                                                                </h5>
+                                                <ul class="no-margin-bottom">
+                                                    <li><a href="#"><i class="far fa-heart margin-5px-right"></i>18 k</a></li>
+                                                </ul>
+                                            </div>
+                                            <span>74 Guild Street 542B, London.</span>
+                                            <p class="margin-20px-tb sm-margin-10px-top">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                            <a href="#" class="text-theme-color">Fitness / Gym</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="card card-list border-0">
+                                <div class="row align-items-center">
+                                    <div class="col-md-5 col-lg-4 xs-margin-20px-bottom">
+                                        <div class="card-list-img">
+                                            <img class="border-radius-5" src="img/content/listing-5.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-lg-8">
+                                        <div class="card-body no-padding-tb">
+                                            <div class="star">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <h5 class="card-title no-margin-bottom font-size22">
+                                                                    <a href="listing-details.html" class="text-extra-dark-gray">Shopping Mall</a>
+                                                                </h5>
+                                                <ul class="no-margin-bottom">
+                                                    <li><a href="#"><i class="far fa-heart margin-5px-right"></i>6 k</a></li>
+                                                </ul>
+                                            </div>
+                                            <span>New York</span>
+                                            <p class="margin-20px-tb sm-margin-10px-top">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some .</p>
+                                            <a href="#" class="text-theme-color">Shop / store</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="pagination text-small text-uppercase text-extra-dark-gray">
+                    <ul>
+                        <li><a href="javascript:void(0);"><i class="fas fa-long-arrow-alt-left margin-5px-right xs-display-none"></i> Prev</a></li>
+                        <li class="active"><a href="javascript:void(0);">1</a></li>
+                        <li><a href="javascript:void(0);">2</a></li>
+                        <li><a href="javascript:void(0);">3</a></li>
+                        <li><a href="javascript:void(0);">Next <i class="fas fa-long-arrow-alt-right margin-5px-left xs-display-none"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+        <!-- end listing list section -->
+        <!-- start footer section -->
+        <footer>
+            <div class="footer-area padding-90px-tb md-padding-70px-tb sm-padding-50px-tb">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 xs-margin-30px-bottom">
+                            <img src="img/logos/logo.png" class="width-50 margin-30px-bottom" alt="" />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar. Donec a consectetur nulla. Nulla posuere.</p>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 xs-margin-30px-bottom">
+                            <h3 class="footer-title-style1">Contact Us</h3>
+                            <ul class="list-style-1 no-margin">
+                                <li>
+                                    <span class="d-inline-block vertical-align-top font-size18"><i class="fas fa-map-marker-alt text-theme-color"></i></span>
+                                    <span class="d-inline-block width-65 sm-width-85 vertical-align-top padding-10px-left">74 Guild Street 542B, Great North Town MT.</span>
+                                </li>
+                                <li>
+                                    <span class="d-inline-block vertical-align-top font-size18"><i class="fas fa-phone text-theme-color"></i></span>
+                                    <span class="d-inline-block width-65 sm-width-85 vertical-align-top padding-10px-left">4355 6567 789</span>
+                                </li>
+                                <li>
+                                    <span class="d-inline-block vertical-align-top font-size18"><i class="fas fa-envelope text-theme-color"></i></span>
+                                    <span class="d-inline-block width-65 sm-width-85 vertical-align-top padding-10px-left">example@yourname.com</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-2 col-md-4">
+                            <h3 class="footer-title-style1">Useful Links</h3>
+                            <ul class="list-style-1">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Dashboard</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <h3 class="footer-title-style1">Subscribe</h3>
+                            <p class="margin-20px-bottom">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+                            <div class="email-box  wow fadeInUp" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                                <div class="input">
+                                    <input type="email" placeholder="Enter your email">
+                                    <a href="javascript:void(0)" class="butn"><span><i class="far fa-paper-plane"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="footer-bar xs-padding-15px-tb">
+                <div class="container">
+                    <div class="float-right xs-width-100 text-center xs-margin-5px-bottom">
+                        <ul class="social-icon-style no-margin">
+                            <li>
+                                <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="float-left xs-width-100 text-center">
+                        <p class="text-medium-gray font-weight-600 margin-5px-top xs-no-margin-top">&copy; 2020 Finder is Powered by Chitrakoot Web</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end footer section -->
+
+    </div>
+    <!-- end main-wrapper section -->
+
+    <!-- start scroll to top -->
+    <a href="javascript:void(0)" class="scroll-to-top"><i class="fas fa-angle-up" aria-hidden="true"></i></a>
+    <!-- end scroll to top -->
+
+    <!-- all js include start -->
+
+    <!-- Java script -->
+    <script src="js/core.min.js"></script>
+
+    <!-- serch -->
+    <script src="search/search.js"></script>
+        
+    <!-- custom scripts -->
+    <script src="js/main.js"></script>
+
+    <!-- all js include end -->
+
+</body>
+
+</html>
