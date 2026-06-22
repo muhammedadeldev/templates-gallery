@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<!-- Responsive -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Travilo - Destinations</title>
+
+	<link href="assets/images/favicon.png" rel="shortcut icon" type="image/x-icon">
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link href="assets/css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/lib/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+	<link href="assets/css/lib/fontawesome/css/brands.css" rel="stylesheet">
+	<link href="assets/css/lib/fontawesome/css/solid.css" rel="stylesheet">
+	<link href="assets/css/lib/simple-line-icons/css/simple-line-icons.min.css" rel="stylesheet">
+	<link href="assets/css/lib/flaticon/css/flaticon.min.css" rel="stylesheet">
+	<link href="assets/css/lib/animate.min.css" rel="stylesheet">
+	<link href="assets/css/lib/slick.min.css" rel="stylesheet">
+	<link href="assets/css/lib/swiper.min.css" rel="stylesheet">
+	<link href="assets/css/lib/jquery-ui.min.css" rel="stylesheet">
+	<link href="assets/css/lib/jquery.fancybox.min.css" rel="stylesheet">
+	<link href="assets/css/custom-animate.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="page-wrapper">
+
+		<!-- Preloader -->
+		<div class="loader-wrap">
+			<div class="preloader">
+				<div class="preloader-close">x</div>
+				<div id="handle-preloader" class="handle-preloader">
+					<div class="animation-preloader">
+						<div class="txt-loading">
+							<span data-text-preloader="T" class="letters-loading">T</span>
+							<span data-text-preloader="R" class="letters-loading">R</span>
+							<span data-text-preloader="A" class="letters-loading">A</span>
+							<span data-text-preloader="V" class="letters-loading">V</span>
+							<span data-text-preloader="I" class="letters-loading">I</span>
+							<span data-text-preloader="L" class="letters-loading">L</span>
+							<span data-text-preloader="O" class="letters-loading">O</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Preloader End -->
+
+		<!-- Main Header-->
+		<header class="main-header header-style-two">
+			<div class="header-top">
+				<div class="auto-container">
+					<div class="inner clearfix">
+						<div class="top-left clearfix">
+							<ul class="info clearfix">
+								<li><i class="icon fa fa-envelope"></i> <a
+										href="mailto:hello@travilo.com">hello@travilo.com</a></li>
+								<li><i class="icon fa fa-map-marker-alt"></i> <a href="#">20, Love Street, Muscat,
+										Oman</a></li>
+							</ul>
+						</div>
+						<div class="top-right clearfix">
+							<div class="login"><a href="#">Login / Signup</a></div>
+							<div class="lang-box">
+								<div class="lang-btn clearfix"><span class="txt">En</span><span
+										class="icon far fa-angle-down"></span>
+								</div>
+								<ul class="lang-list">
+									<li><a href="#">Tur</a></li>
+									<li><a href="#">Esp</a></li>
+									<li><a href="#">Rus</a></li>
+									<li><a href="#">Hin</a></li>
+								</ul>
+							</div>
+							<div class="social">
+								<ul class="social-links clearfix">
+									<li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+									<li><a href="#" class="youtube"><i class="fab fa-youtube"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Header Upper -->
+			<div class="header-upper">
+				<div class="auto-container">
+					<!-- Main Box -->
+					<div class="main-box clearfix">
+						<!--Logo-->
+						<div class="logo-box">
+							<div class="logo"><a href="index.html" title="Travilo"><img src="assets/images/logo.png"
+										alt="" title="Travilo"></a></div>
+						</div>
+
+						<div class="outer clearfix">
+							<div class="nav-box clearfix">
+								<!--Nav Outer-->
+								<div class="nav-outer clearfix">
+									<nav class="main-menu">
+										<ul class="navigation clearfix">
+											<li class="dropdown"><a href="index.html">Home</a>
+												<ul>
+													<li><a href="index.html">Home 01</a></li>
+													<li><a href="index-2.html">Home 02</a></li>
+												</ul>
+											</li>
+											<li class="dropdown"><a href="tour-list.html">Tours</a>
+												<ul>
+													<li><a href="tour-list.html">Tours List</a></li>
+													<li><a href="tour-packages.html">Tour Packages</a></li>
+													<li><a href="tour-single.html">Tour Details</a></li>
+													<li><a href="activities.html">Activities</a></li>
+													<li><a href="activity-single.html">Activity Details</a></li>
+												</ul>
+											</li>
+											<li class="current dropdown"><a href="destinations.html">Destination</a>
+												<ul>
+													<li><a href="destinations.html">All Destinations</a></li>
+													<li><a href="destination-single.html">Destination Single</a></li>
+													<li><a href="hotels.html">Hotels</a></li>
+													<li><a href="hotel-single.html">Hotel Details</a></li>
+												</ul>
+											</li>
+											<li><a href="about.html">About</a></li>
+											<li class="dropdown"><a href="blog.html">News</a>
+												<ul>
+													<li><a href="blog.html">Our Blog</a></li>
+													<li><a href="blog-single.html">Blog Details</a></li>
+												</ul>
+											</li>
+											<li><a href="contact.html">Contact</a></li>
+										</ul>
+									</nav>
+									<!-- Main Menu End-->
+								</div>
+								<!--Nav Outer End-->
+
+							</div>
+
+							<div class="links-box clearfix">
+								<div class="link call-to">
+									<a href="tel:+96899999000"><i class="icon fa-solid fa-phone"></i> Call Us <span
+											class="nmbr">+96899999000</span></a>
+								</div>
+							</div>
+
+							<!-- Hidden Nav Toggler -->
+							<div class="nav-toggler">
+								<button class="hidden-bar-opener"><span class="icon"><img
+											src="assets/images/icons/menu-icon.svg" alt=""></span></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Header Upper -->
+		</header>
+		<!--End Main Header -->
+
+
+		<!--Menu Backdrop-->
+		<div class="menu-backdrop"></div>
+
+		<!-- Hidden Navigation Bar -->
+		<div class="hidden-bar">
+			<!-- Hidden Bar Wrapper -->
+			<div class="hidden-bar-wrapper">
+				<div class="hidden-bar-closer"><span class="icon"><svg class="icon-close" role="presentation"
+							viewBox="0 0 16 14">
+							<path d="M15 0L1 14m14 0L1 0" stroke="currentColor" fill="none" fill-rule="evenodd"></path>
+						</svg></span></div>
+				<div class="nav-logo-box">
+					<!-- logo will be copied here ! -->
+				</div>
+				<!-- .Side-menu -->
+				<nav class="side-menu">
+					<!-- main-menu will be copied here! -->
+				</nav><!-- .side-menu -->
+
+				<div class="links-box clearfix">
+					<div class="clearfix">
+						<div class="link"><a href="contact.html" class="theme-btn btn-style-one"><span>Login /
+									Signup</span></a></div>
+					</div>
+				</div>
+
+			</div><!-- / Hidden Bar Wrapper -->
+		</div>
+		<!-- / Hidden Bar -->
+
+
+		<!-- Banner Section -->
+		<section class="inner-banner">
+			<div class="image-layer" style="background-image: url(assets/images/resources/featured/banner-6.jpg);">
+			</div>
+			<div class="auto-container">
+				<div class="content-box">
+					<h1>Destinations</h1>
+					<div class="bread-crumb">
+						<ul class="clearfix">
+							<li><a href="index.html">Home</a></li>
+							<li class="current">Destinations</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--End Banner Section -->
+
+		<!--Destinations Section-->
+		<section class="destinations-two">
+			<div class="auto-container">
+				<div class="packages">
+					<div class="row clearfix">
+						<!--Block-->
+						<div class="popular-block col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+							<div class="inner-box">
+								<div class="image-box">
+									<div class="image"><a href="destination-single.html"><img
+												src="assets/images/resources/destinations/giza.jpg" alt="Giza"></a>
+									</div>
+								</div>
+								<div class="hvr-box">
+									<div class="hvr-inner">
+										<h3><a href="destination-single.html">Giza</a></h3>
+										<div class="info"><span>20 Hotel</span> <span>30 Tours</span> <span>10
+												Cars</span> <span>18 Flights</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--Block-->
+						<div class="popular-block col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+							<div class="inner-box">
+								<div class="image-box">
+									<div class="image"><a href="destination-single.html"><img
+												src="assets/images/resources/destinations/muttrah.jpg"
+												alt="Muttrah"></a></div>
+								</div>
+								<div class="hvr-box">
+									<div class="hvr-inner">
+										<h3><a href="destination-single.html">Muttrah</a></h3>
+										<div class="info"><span>55 Hotel</span> <span>48 Tours</span> <span>7
+												Cars</span> <span>70 Flights</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--Block-->
+						<div class="popular-block col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+							<div class="inner-box">
+								<div class="image-box">
+									<div class="image"><a href="destination-single.html"><img
+												src="assets/images/resources/destinations/miami.jpg" alt="Miami"></a>
+									</div>
+								</div>
+								<div class="hvr-box">
+									<div class="hvr-inner">
+										<h3><a href="destination-single.html">Maiami</a></h3>
+										<div class="info"><span>48 Hotel</span> <span>14 Tours</span> <span>8
+												Cars</span> <span>30 Flights</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--Block-->
+						<div class="popular-block col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+							<div class="inner-box">
+								<div class="image-box">
+									<div class="image"><a href="destination-single.html"><img
+												src="assets/images/resources/destinations/beijing.jpg"
+												alt="Beijing"></a></div>
+								</div>
+								<div class="hvr-box">
+									<div class="hvr-inner">
+										<h3><a href="destination-single.html">Beijing</a></h3>
+										<div class="info"><span>70 Hotel</span> <span>90 Tours</span> <span>25
+												Cars</span> <span>35 Flights</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--Block-->
+						<div class="popular-block col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+							<div class="inner-box">
+								<div class="image-box">
+									<div class="image"><a href="destination-single.html"><img
+												src="assets/images/resources/destinations/agra.jpg" alt="Agra"></a>
+									</div>
+								</div>
+								<div class="hvr-box">
+									<div class="hvr-inner">
+										<h3><a href="destination-single.html">Agra</a></h3>
+										<div class="info"><span>15 Hotel</span> <span>38 Tours</span> <span>7
+												Cars</span> <span>22 Flights</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--Block-->
+						<div class="popular-block col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+							<div class="inner-box">
+								<div class="image-box">
+									<div class="image"><a href="destination-single.html"><img
+												src="assets/images/resources/destinations/dubai.jpg" alt="Dubai"></a>
+									</div>
+								</div>
+								<div class="hvr-box">
+									<div class="hvr-inner">
+										<h3><a href="destination-single.html">Dubai</a></h3>
+										<div class="info"><span>90 Hotel</span> <span>100 Tours</span> <span>30
+												Cars</span> <span>35 Flights</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--Block-->
+						<div class="popular-block col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+							<div class="inner-box">
+								<div class="image-box">
+									<div class="image"><a href="destination-single.html"><img
+												src="assets/images/resources/destinations/taghazout.jpg"
+												alt="Taghazout"></a></div>
+								</div>
+								<div class="hvr-box">
+									<div class="hvr-inner">
+										<h3><a href="destination-single.html">Taghazout</a></h3>
+										<div class="info"><span>12 Hotel</span> <span>25 Tours</span> <span>8
+												Cars</span> <span>27 Flights</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--Block-->
+						<div class="popular-block col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+							<div class="inner-box">
+								<div class="image-box">
+									<div class="image"><a href="destination-single.html"><img
+												src="assets/images/resources/destinations/london.jpg" alt="London"></a>
+									</div>
+								</div>
+								<div class="hvr-box">
+									<div class="hvr-inner">
+										<h3><a href="destination-single.html">London</a></h3>
+										<div class="info"><span>78 Hotel</span> <span>45 Tours</span> <span>32
+												Cars</span> <span>40 Flights</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--Block-->
+						<div class="popular-block col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+							<div class="inner-box">
+								<div class="image-box">
+									<div class="image"><a href="destination-single.html"><img
+												src="assets/images/resources/destinations/singapore.jpg"
+												alt="Singapore"></a></div>
+								</div>
+								<div class="hvr-box">
+									<div class="hvr-inner">
+										<h3><a href="destination-single.html">Singapore</a></h3>
+										<div class="info"><span>100 Hotel</span> <span>70 Tours</span> <span>80
+												Cars</span> <span>45 Flights</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--Block-->
+						<div class="popular-block col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+							<div class="inner-box">
+								<div class="image-box">
+									<div class="image"><a href="destination-single.html"><img
+												src="assets/images/resources/destinations/berlin.jpg" alt="Berlin"></a>
+									</div>
+								</div>
+								<div class="hvr-box">
+									<div class="hvr-inner">
+										<h3><a href="destination-single.html">Berlin</a></h3>
+										<div class="info"><span>66 Hotel</span> <span>77 Tours</span> <span>33
+												Cars</span> <span>44 Flights</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--Block-->
+						<div class="popular-block col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+							<div class="inner-box">
+								<div class="image-box">
+									<div class="image"><a href="destination-single.html"><img
+												src="assets/images/resources/destinations/ghorem.jpg" alt="Ghorem"></a>
+									</div>
+								</div>
+								<div class="hvr-box">
+									<div class="hvr-inner">
+										<h3><a href="destination-single.html">Ghorem</a></h3>
+										<div class="info"><span>76 Hotel</span> <span>120 Tours</span> <span>50
+												Cars</span> <span>35 Flights</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--Block-->
+						<div class="popular-block col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+							<div class="inner-box">
+								<div class="image-box">
+									<div class="image"><a href="destination-single.html"><img
+												src="assets/images/resources/destinations/bali.jpg" alt="Bali"></a>
+									</div>
+								</div>
+								<div class="hvr-box">
+									<div class="hvr-inner">
+										<h3><a href="destination-single.html">Bali</a></h3>
+										<div class="info"><span>45 Hotel</span> <span>57 Tours</span> <span>29
+												Cars</span> <span>26 Flights</span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="styled-pagination centered">
+						<ul class="clearfix">
+							<li class="active"><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#"><i class="fa-solid fa-angle-right"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--Main Footer-->
+		<footer class="main-footer style-two">
+			<div class="upper-section">
+				<div class="footer-subscribe">
+					<div class="title-box centered">
+						<div class="subtitle">Get Regular Updates</div>
+						<h2>Subscribe to our Newsletter</h2>
+					</div>
+					<div class="form-box subscribe-form">
+						<form method="post" action="contact.html">
+							<div class="form-group">
+								<div class="field-inner">
+									<input type="email" name="email" value="" placeholder="Type your email here"
+										required>
+								</div>
+								<button type="submit" class="theme-btn"><span>Subscribe</span></button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="auto-container">
+					<div class="content-box">
+						<div class="row clearfix">
+							<div class="footer-column col-xl-4 col-lg-3 col-md-6 col-sm-12">
+								<div class="footer-widget about-widget">
+									<div class="footer-logo"><a href="index.html" title="Travilo"><img
+												src="assets/images/logo-white.png" alt="" title="Travilo"></a></div>
+									<div class="footer-info">
+										<ul class="info">
+											<li class="address"><a href="#"><i class="icon fa fa-map-marker-alt"></i>
+													20, Love Street, Muscat, Oman</a></li>
+											<li class="phone"><a href="tel:+96899999000"><i
+														class="icon fa-solid fa-phone"></i>
+													+96899999000</a></li>
+											<li class="email"><a href="mailto:hello@travilo.com"><i
+														class="icon fa fa-envelope"></i>
+													hello@travilo.com</a></li>
+										</ul>
+										<ul class="social-links clearfix">
+											<li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+											<li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
+											<li><a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+											<li><a href="#" class="youtube"><i class="fab fa-youtube"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-5 col-lg-6 col-md-6 col-sm-12">
+								<div class="row clearfix">
+
+									<div class="footer-column col-lg-6 col-md-6 col-sm-12">
+										<div class="footer-widget links-widget">
+											<h4>Top Destination</h4>
+											<div class="links">
+												<ul>
+													<li><a href="#">New York</a></li>
+													<li><a href="#">London</a></li>
+													<li><a href="#">Rome</a></li>
+													<li><a href="#">Mascot</a></li>
+													<li><a href="#">Dhaka</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+
+									<div class="footer-column col-lg-6 col-md-6 col-sm-12">
+										<div class="footer-widget links-widget">
+											<h4>Useful Links</h4>
+											<div class="links">
+												<ul>
+													<li><a href="#">About Us</a></li>
+													<li><a href="#">Company Profile</a></li>
+													<li><a href="#">Team Members</a></li>
+													<li><a href="#">Support</a></li>
+													<li><a href="#">Career</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="footer-column col-xl-3 col-lg-3 col-md-6 col-sm-12">
+								<div class="footer-widget app-widget">
+									<h4>Download App</h4>
+									<!--Logo-->
+									<div class="app-info">
+										<p class="travilo-text">Download our user-friendly app for seamless access to
+											real-time updates, and
+											exclusive offers on the go.</p>
+										<div class="links">
+											<div class="link"><a href="#"><img src="assets/images/apple-store.png"
+														alt=""></a></div>
+											<div class="link"><a href="#"><img src="assets/images/play-store.png"
+														alt=""></a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="f-bottom">
+				<div class="auto-container">
+					<div class="inner clearfix">
+						<div class="copyright">All rights researved <strong>Travilo</strong> &copy; 2023</div>
+						<div class="bottom-links">
+							<ul class="clearfix">
+								<li><a href="#">Terms & Conditions</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</footer>
+
+	</div>
+	<!--End pagewrapper-->
+
+	<!--Scroll to top-->
+	<div class="scroll-to-top scroll-to-target" data-target="html">
+		<span class="icon"><img src="assets/images/icons/arrow-up.svg" alt="" title="Go To Top"></span>
+	</div>
+
+	<script src="assets/js/lib/jquery.min.js"></script>
+	<script src="assets/js/lib/popper.min.js"></script>
+	<script src="assets/js/lib/bootstrap/bootstrap.min.js"></script>
+	<script src="assets/js/lib/jquery-ui.min.js"></script>
+	<script src="assets/js/lib/jquery.fancybox.min.js"></script>
+	<script src="assets/js/lib/isotope.min.js"></script>
+	<script src="assets/js/lib/slick.min.js"></script>
+	<script src="assets/js/lib/appear.min.js"></script>
+	<script src="assets/js/lib/wow.min.js"></script>
+	<script src="assets/js/custom-script.js"></script>
+</body>
+
+</html>

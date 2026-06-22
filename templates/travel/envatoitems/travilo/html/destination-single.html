@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<!-- Responsive -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Travilo - Destination Single</title>
+
+	<link href="assets/images/favicon.png" rel="shortcut icon" type="image/x-icon">
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link href="assets/css/lib/bootstrap/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/lib/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+	<link href="assets/css/lib/fontawesome/css/brands.css" rel="stylesheet">
+	<link href="assets/css/lib/fontawesome/css/solid.css" rel="stylesheet">
+	<link href="assets/css/lib/simple-line-icons/css/simple-line-icons.min.css" rel="stylesheet">
+	<link href="assets/css/lib/flaticon/css/flaticon.min.css" rel="stylesheet">
+	<link href="assets/css/lib/animate.min.css" rel="stylesheet">
+	<link href="assets/css/lib/slick.min.css" rel="stylesheet">
+	<link href="assets/css/lib/swiper.min.css" rel="stylesheet">
+	<link href="assets/css/lib/jquery-ui.min.css" rel="stylesheet">
+	<link href="assets/css/lib/jquery.fancybox.min.css" rel="stylesheet">
+	<link href="assets/css/custom-animate.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<link href="assets/css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body>
+	<div class="page-wrapper">
+
+		<!-- Preloader -->
+		<div class="loader-wrap">
+			<div class="preloader">
+				<div class="preloader-close">x</div>
+				<div id="handle-preloader" class="handle-preloader">
+					<div class="animation-preloader">
+						<div class="txt-loading">
+							<span data-text-preloader="T" class="letters-loading">T</span>
+							<span data-text-preloader="R" class="letters-loading">R</span>
+							<span data-text-preloader="A" class="letters-loading">A</span>
+							<span data-text-preloader="V" class="letters-loading">V</span>
+							<span data-text-preloader="I" class="letters-loading">I</span>
+							<span data-text-preloader="L" class="letters-loading">L</span>
+							<span data-text-preloader="O" class="letters-loading">O</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Preloader End -->
+
+		<!-- Main Header-->
+		<header class="main-header header-style-two">
+			<div class="header-top">
+				<div class="auto-container">
+					<div class="inner clearfix">
+						<div class="top-left clearfix">
+							<ul class="info clearfix">
+								<li><i class="icon fa fa-envelope"></i> <a
+										href="mailto:hello@travilo.com">hello@travilo.com</a></li>
+								<li><i class="icon fa fa-map-marker-alt"></i> <a href="#">20, Love Street, Muscat,
+										Oman</a></li>
+							</ul>
+						</div>
+						<div class="top-right clearfix">
+							<div class="login"><a href="#">Login / Signup</a></div>
+							<div class="lang-box">
+								<div class="lang-btn clearfix"><span class="txt">En</span><span
+										class="icon far fa-angle-down"></span>
+								</div>
+								<ul class="lang-list">
+									<li><a href="#">Tur</a></li>
+									<li><a href="#">Esp</a></li>
+									<li><a href="#">Rus</a></li>
+									<li><a href="#">Hin</a></li>
+								</ul>
+							</div>
+							<div class="social">
+								<ul class="social-links clearfix">
+									<li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
+									<li><a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+									<li><a href="#" class="youtube"><i class="fab fa-youtube"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Header Upper -->
+			<div class="header-upper">
+				<div class="auto-container">
+					<!-- Main Box -->
+					<div class="main-box clearfix">
+						<!--Logo-->
+						<div class="logo-box">
+							<div class="logo"><a href="index.html" title="Travilo"><img src="assets/images/logo.png"
+										alt="" title="Travilo"></a></div>
+						</div>
+
+						<div class="outer clearfix">
+							<div class="nav-box clearfix">
+								<!--Nav Outer-->
+								<div class="nav-outer clearfix">
+									<nav class="main-menu">
+										<ul class="navigation clearfix">
+											<li class="dropdown"><a href="index.html">Home</a>
+												<ul>
+													<li><a href="index.html">Home 01</a></li>
+													<li><a href="index-2.html">Home 02</a></li>
+												</ul>
+											</li>
+											<li class="dropdown"><a href="tour-list.html">Tours</a>
+												<ul>
+													<li><a href="tour-list.html">Tours List</a></li>
+													<li><a href="tour-packages.html">Tour Packages</a></li>
+													<li><a href="tour-single.html">Tour Details</a></li>
+													<li><a href="activities.html">Activities</a></li>
+													<li><a href="activity-single.html">Activity Details</a></li>
+												</ul>
+											</li>
+											<li class="current dropdown"><a href="destinations.html">Destination</a>
+												<ul>
+													<li><a href="destinations.html">All Destinations</a></li>
+													<li><a href="destination-single.html">Destination Single</a></li>
+													<li><a href="hotels.html">Hotels</a></li>
+													<li><a href="hotel-single.html">Hotel Details</a></li>
+												</ul>
+											</li>
+											<li><a href="about.html">About</a></li>
+											<li class="dropdown"><a href="blog.html">News</a>
+												<ul>
+													<li><a href="blog.html">Our Blog</a></li>
+													<li><a href="blog-single.html">Blog Details</a></li>
+												</ul>
+											</li>
+											<li><a href="contact.html">Contact</a></li>
+										</ul>
+									</nav>
+									<!-- Main Menu End-->
+								</div>
+								<!--Nav Outer End-->
+
+							</div>
+
+							<div class="links-box clearfix">
+								<div class="link call-to">
+									<a href="tel:+96899999000"><i class="icon fa-solid fa-phone"></i> Call Us <span
+											class="nmbr">+96899999000</span></a>
+								</div>
+							</div>
+
+							<!-- Hidden Nav Toggler -->
+							<div class="nav-toggler">
+								<button class="hidden-bar-opener"><span class="icon"><img
+											src="assets/images/icons/menu-icon.svg" alt=""></span></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Header Upper -->
+		</header>
+		<!--End Main Header -->
+
+
+		<!--Menu Backdrop-->
+		<div class="menu-backdrop"></div>
+
+		<!-- Hidden Navigation Bar -->
+		<div class="hidden-bar">
+			<!-- Hidden Bar Wrapper -->
+			<div class="hidden-bar-wrapper">
+				<div class="hidden-bar-closer"><span class="icon"><svg class="icon-close" role="presentation"
+							viewBox="0 0 16 14">
+							<path d="M15 0L1 14m14 0L1 0" stroke="currentColor" fill="none" fill-rule="evenodd"></path>
+						</svg></span></div>
+				<div class="nav-logo-box">
+					<!-- logo will be copied here ! -->
+				</div>
+				<!-- .Side-menu -->
+				<nav class="side-menu">
+					<!-- main-menu will be copied here! -->
+				</nav><!-- .side-menu -->
+
+				<div class="links-box clearfix">
+					<div class="clearfix">
+						<div class="link"><a href="contact.html" class="theme-btn btn-style-one"><span>Login /
+									Signup</span></a></div>
+					</div>
+				</div>
+
+			</div><!-- / Hidden Bar Wrapper -->
+		</div>
+		<!-- / Hidden Bar -->
+
+
+		<!-- Banner Section -->
+		<section class="inner-banner">
+			<div class="image-layer" style="background-image: url(assets/images/resources/featured/banner-2.jpg);">
+			</div>
+			<div class="auto-container">
+				<div class="content-box">
+					<h1>Istanbul</h1>
+					<div class="bread-crumb">
+						<ul class="clearfix">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="destinations.html">Destinations</a></li>
+							<li class="current">Istanbul</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--End Banner Section -->
+
+		<!--Destination Single-->
+		<div class="destination-single">
+			<div class="auto-container">
+				<div class="upper-images">
+					<div class="row clearfix">
+						<!--Image Block-->
+						<div class="image-col col-lg-8 col-md-12 col-sm-12">
+							<!--Image Block-->
+							<div class="image-block">
+								<div class="image"><a href="assets/images/resources/destinations/istanbul-masjid.jpg"
+										class="lightbox-image" data-fancybox="D-Gallery"><img
+											src="assets/images/resources/destinations/istanbul-masjid-thumb.jpg"
+											alt="Istanbul Masjid"></a>
+								</div>
+							</div>
+						</div>
+
+						<!--Image Block-->
+						<div class="image-col col-lg-4 col-md-12 col-sm-12">
+							<!--Image Block-->
+							<div class="image-block">
+								<div class="image"><a href="assets/images/resources/destinations/istanbul-city.jpg"
+										class="lightbox-image" data-fancybox="D-Gallery"><img
+											src="assets/images/resources/destinations/istanbul-city-thumb.jpg"
+											alt="Istanbul City"></a>
+								</div>
+							</div>
+
+							<!--Image Block-->
+							<div class="image-block">
+								<div class="image"><a
+										href="assets/images/resources/destinations/istanbul-lighthouse.jpg"
+										class="lightbox-image" data-fancybox="D-Gallery"><img
+											src="assets/images/resources/destinations/istanbul-lighthouse-thumb.jpg"
+											alt="Light House"></a>
+								</div>
+								<div class="img-link"><a href="#" class="theme-btn"><span>+ 160 Photos</span></a></div>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+				<div class="lower-content">
+					<div class="row clearfix">
+						<div class="content-col col-lg-8 col-md-12 col-sm-12">
+							<div class="inner">
+								<h3>About Istanbul</h3>
+								<div class="travilo-text">
+									<p>Istanbul, the vibrant and historic city straddling the continents of Europe and
+										Asia, offers an
+										enchanting blend of cultures, sights, and experiences that captivate every
+										traveler's heart. As
+										Turkey's cultural and economic hub, Istanbul seamlessly fuses its rich heritage
+										with modernity,
+										creating an unforgettable journey for visitors.</p>
+									<p>The city is home to some of the world's most iconic landmarks, including the
+										awe-inspiring Hagia
+										Sophia, the majestic Blue Mosque, and the grand Topkapi Palace, each bearing
+										witness to Istanbul's
+										illustrious past. Wandering through the bustling streets, you'll find an array
+										of delightful
+										bazaars, where you can haggle for unique souvenirs, immerse yourself in the
+										aromatic spices, and
+										savor traditional Turkish delights. As the sun sets, head to the banks of the
+										Bosphorus strait for a
+										magical view of Istanbul's skyline, a true testament to its allure as the
+										crossroads between Europe
+										and Asia.</p>
+									<p>Prepare your taste buds for an unforgettable gastronomic adventure in Istanbul,
+										where a delightful
+										fusion of flavors awaits you at every turn. Turkish cuisine, renowned for its
+										rich and diverse
+										flavors, is showcased in full glory throughout the city's bustling streets and
+										quaint eateries.
+										Don't miss the chance to savor an authentic Turkish breakfast, complete with
+										fresh bread, olives,
+										cheeses, and menemen (scrambled eggs with tomatoes and peppers). For lunch,
+										indulge in mouthwatering
+										kebabs, whether it's the succulent doner or the savory shish kebab.</p>
+									<p>As the evening sets in, find yourself in the heart of Istanbul's vibrant
+										nightlife, with bustling
+										rooftop bars and traditional meyhanes (taverns) offering an array of mezes
+										(appetizers) and raki,
+										Turkey's famous anise-flavored spirit. Foodies will find themselves in paradise
+										as they explore
+										Istanbul's diverse culinary scene, with each dish reflecting the city's rich
+										cultural tapestry.</p>
+									<p>Step back in time as you delve into Istanbul's fascinating history, with a
+										heritage spanning over
+										2,600 years. From the time of the Byzantine Empire to the splendor of the
+										Ottoman era, Istanbul's
+										landmarks narrate a mesmerizing tale of triumphs, conquests, and cultural
+										exchanges. The Hagia
+										Sophia, originally a church and later transformed into a mosque and now a
+										museum, stands as a symbol
+										of architectural brilliance and religious significance. Wander through the
+										labyrinthine streets of
+										the Grand Bazaar, one of the world's oldest and largest covered markets, where
+										centuries-old
+										craftsmanship and traditional trades coexist with modern shopping experiences.
+										And no visit to
+										Istanbul would be complete without crossing the iconic Galata Bridge, offering a
+										stunning panorama
+										of the Golden Horn and a glimpse into the city's timeless allure.</p>
+									<p>Whether you're a history enthusiast or simply looking to be enchanted by the
+										mystique of a bygone
+										era, Istanbul promises an immersive journey through time like no other.</p>
+								</div>
+
+								<div class="basic-info">
+									<div class="i-block clearfix">
+										<h5>Basic Information</h5>
+									</div>
+									<div class="i-block clearfix">
+										<div class="i-title">Country</div>
+										<div class="i-content">Turkey</div>
+									</div>
+									<div class="i-block clearfix">
+										<div class="i-title">Language</div>
+										<div class="i-content">Turkish, Kurdish, Arabic, Zaza, Circassian</div>
+									</div>
+									<div class="i-block clearfix">
+										<div class="i-title">Currency</div>
+										<div class="i-content">Turkish Lira</div>
+									</div>
+									<div class="i-block clearfix">
+										<div class="i-title">Area</div>
+										<div class="i-content">2,063 Square Miles</div>
+									</div>
+									<div class="i-block clearfix">
+										<div class="i-title">Population</div>
+										<div class="i-content">15M</div>
+									</div>
+									<div class="i-block clearfix">
+										<div class="i-title">Time Zone</div>
+										<div class="i-content">UTC+2</div>
+									</div>
+									<div class="i-block clearfix">
+										<div class="i-title">Time to Travel</div>
+										<div class="i-content">May, June, July, August</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="info-col col-lg-4 col-md-12 col-sm-12">
+							<div class="inner">
+								<!--Block-->
+								<div class="info-block loc-map">
+									<div class="inner-box">
+										<h3>City Map</h3>
+										<div class="map-box">
+											<iframe
+												src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d385396.3211045611!2d28.68252620266689!3d41.005370208664374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa7040068086b%3A0xe1ccfe98bc01b0d0!2zxLBzdGFuYnVsLCBUw7xya2l5ZQ!5e0!3m2!1sen!2som!4v1691060523160!5m2!1sen!2som"
+												allowfullscreen="" loading="lazy"
+												referrerpolicy="no-referrer-when-downgrade"></iframe>
+										</div>
+									</div>
+								</div>
+								<!--Block-->
+								<div class="info-block weather-info">
+									<div class="inner-box">
+										<h3>Weather</h3>
+										<div class="weather">
+											<ul>
+												<li class="clearfix"><span class="ttl">Jan - Feb</span><span
+														class="dtl">12o C - 18o C</span>
+												</li>
+												<li class="clearfix"><span class="ttl">Mar - Apr</span><span
+														class="dtl">8o C - 12o C</span>
+												</li>
+												<li class="clearfix"><span class="ttl">May - Jun</span><span
+														class="dtl">4o C - 8o C</span></li>
+												<li class="clearfix"><span class="ttl">Jul - Aug</span><span
+														class="dtl">12o C - 16o C</span>
+												</li>
+												<li class="clearfix"><span class="ttl">Sep - Oct</span><span
+														class="dtl">15o C - 18o C</span>
+												</li>
+												<li class="clearfix"><span class="ttl">Nov - Dec</span><span
+														class="dtl">22o C - 30o C</span>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Posts Section-->
+		<div class="default-post-section">
+			<div class="auto-container">
+				<div class="u-title clearfix">
+					<h2>Tours in Istanbul</h2>
+					<div class="link-box"><a href="#" class="theme-btn">View All</a></div>
+				</div>
+				<div class="row clearfix justify-content-center">
+					<!--Block-->
+					<div class="package-block col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image-box">
+								<div class="image"><a href="tour-single.html"><img
+											src="assets/images/resources/destinations/istanbul-walk-tour.jpg"
+											alt="Walk Tour"></a>
+								</div>
+								<div class="b-title top-rated"><span>Top Rated</span></div>
+							</div>
+							<div class="lower-box">
+								<div class="p-icon"><img src="assets/images/icons/t-icon-1.png" alt=""><span
+										class="icon flaticon-adventure"></span></div>
+								<div class="location">Istanbul Walk Tour</div>
+								<h5><a href="tour-single.html">Amazing Historical Istanbul Walking Tour</a></h5>
+								<div class="info clearfix">
+									<div class="duration"><i class="fa-solid fa-clock"></i> 5 Days 6 Nights</div>
+									<div class="persons"><i class="fa-solid fa-user"></i> 12</div>
+								</div>
+								<div class="bottom-box clearfix">
+									<div class="rating"><a href="#" class="theme-btn"><i class="fa-solid fa-star"></i>
+											<strong>4.8</strong> &ensp; <span class="count">3210 Reviews</span></a>
+									</div>
+									<div class="price">Start from &ensp;<span class="amount">$399</span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!--Block-->
+					<div class="package-block col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image-box">
+								<div class="image"><a href="tour-single.html"><img
+											src="assets/images/resources/destinations/istanbul-cruise-tour.jpg"
+											alt="Spice Tour"></a></div>
+							</div>
+							<div class="lower-box">
+								<div class="p-icon"><img src="assets/images/icons/t-icon-2.png" alt=""><span
+										class="icon flaticon-hiking"></span></div>
+								<div class="location">Bosphorus</div>
+								<h5><a href="tour-single.html">Day Light Bosphorus Cruise and Fun Tour</a></h5>
+								<div class="info clearfix">
+									<div class="duration"><i class="fa-solid fa-clock"></i> 2 Days 1 Nights</div>
+									<div class="persons"><i class="fa-solid fa-user"></i> 4</div>
+								</div>
+								<div class="bottom-box clearfix">
+									<div class="rating"><a href="#" class="theme-btn"><i class="fa-solid fa-star"></i>
+											<strong>4.5</strong> &ensp; <span class="count">7560 Reviews</span></a>
+									</div>
+									<div class="price">Start from &ensp;<span class="amount">$450</span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!--Block-->
+					<div class="package-block col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image-box">
+								<div class="image"><a href="tour-single.html"><img
+											src="assets/images/resources/destinations/istanbul-spices-tour.jpg"
+											alt="Spice Tour"></a></div>
+								<div class="b-title featured"><span>Featured</span></div>
+							</div>
+							<div class="lower-box">
+								<div class="p-icon"><img src="assets/images/icons/t-icon-3.png" alt=""><span
+										class="icon flaticon-family"></span></div>
+								<div class="location">Istanbul</div>
+								<h5><a href="tour-single.html">Istanbul Culinary, Flavors of the East and West</a></h5>
+								<div class="info clearfix">
+									<div class="duration"><i class="fa-solid fa-clock"></i> 2 Days 3 Nights</div>
+									<div class="persons"><i class="fa-solid fa-user"></i> 12</div>
+								</div>
+								<div class="bottom-box clearfix">
+									<div class="rating"><a href="#" class="theme-btn"><i class="fa-solid fa-star"></i>
+											<strong>4.7</strong> &ensp; <span class="count">6877 Reviews</span></a>
+									</div>
+									<div class="price">Start from &ensp;<span class="amount">$335</span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!--Posts Section-->
+		<div class="default-post-section">
+			<div class="auto-container">
+				<div class="u-title clearfix">
+					<h2>Activities in Istanbul</h2>
+					<div class="link-box"><a href="#" class="theme-btn">View All</a></div>
+				</div>
+				<div class="row clearfix justify-content-center">
+					<!--Block-->
+					<div class="package-block alt col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image-box">
+								<div class="image"><a href="activity-single.html"><img
+											src="assets/images/resources/destinations/istanbul-derwish-activity.jpg"
+											alt="Derwish"></a></div>
+							</div>
+							<div class="lower-box">
+								<div class="location">Istanbul</div>
+								<h5><a href="activity-single.html">Whirling Dervishes Show</a></h5>
+								<div class="bottom-box clearfix">
+									<div class="rating"><a href="#" class="theme-btn"><i class="fa-solid fa-star"></i>
+											<strong>4.3</strong> &ensp; <span class="count">4544 Reviews</span></a>
+									</div>
+									<div class="price">Start from &ensp;<span class="amount">$225</span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--Block-->
+					<div class="package-block alt col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image-box">
+								<div class="image"><a href="activity-single.html"><img
+											src="assets/images/resources/destinations/istanbul-air-ballons-activity.jpg"
+											alt="Hot Air Balloons"></a></div>
+								<div class="b-title top-rated"><span>Top Rated</span></div>
+							</div>
+							<div class="lower-box">
+								<div class="location">Cappadocia</div>
+								<h5><a href="activity-single.html">Hot Air Balloon Ride</a></h5>
+								<div class="bottom-box clearfix">
+									<div class="rating"><a href="#" class="theme-btn"><i class="fa-solid fa-star"></i>
+											<strong>4.6</strong> &ensp; <span class="count">8120 Reviews</span></a>
+									</div>
+									<div class="price">Start from &ensp;<span class="amount">$300</span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--Block-->
+					<div class="package-block alt col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image-box">
+								<div class="image"><a href="activity-single.html"><img
+											src="assets/images/resources/destinations/istanbul-food-market-activity.jpg"
+											alt="Street Food"></a></div>
+								<div class="b-title featured"><span>Featured</span></div>
+							</div>
+							<div class="lower-box">
+								<div class="location">Istanbul</div>
+								<h5><a href="activity-single.html">Local Street Food Tour</a></h5>
+								<div class="bottom-box clearfix">
+									<div class="rating"><a href="#" class="theme-btn"><i class="fa-solid fa-star"></i>
+											<strong>4.8</strong> &ensp; <span class="count">5233 Reviews</span></a>
+									</div>
+									<div class="price">Start from &ensp;<span class="amount">$245</span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!--Posts Section-->
+		<div class="default-post-section">
+			<div class="auto-container">
+				<div class="u-title clearfix">
+					<h2>Hotels in Istanbul</h2>
+					<div class="link-box"><a href="#" class="theme-btn">View All</a></div>
+				</div>
+				<div class="row clearfix justify-content-center">
+					<!--Block-->
+					<div class="package-block alt col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image-box">
+								<div class="image"><a href="hotel-single.html"><img
+											src="assets/images/resources/destinations/istanbul-mom-hotel.jpg"
+											alt="Mom Hotel"></a>
+								</div>
+								<div class="b-title featured"><span>Featured</span></div>
+								<div class="fav-btn"><a href="#"><span class="far fa-heart"></span></a></div>
+							</div>
+							<div class="lower-box">
+								<div class="location">Istanbul</div>
+								<h5><a href="hotel-single.html">Mom Hotel</a>
+								</h5>
+								<div class="bottom-box clearfix">
+									<div class="rating"><a href="#" class="theme-btn"><i class="fa-solid fa-star"></i>
+											<strong>4.8</strong> &ensp; <span class="count">4544 Reviews</span></a>
+									</div>
+									<div class="price">Start from &ensp;<span class="amount">$240</span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--Block-->
+					<div class="package-block alt col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image-box">
+								<div class="image"><a href="hotel-single.html"><img
+											src="assets/images/resources/destinations/istanbul-beach-hotel.jpg"
+											alt="Beach Hotel"></a></div>
+								<div class="b-title top-rated"><span>Top Rated</span></div>
+								<div class="fav-btn"><a href="#"><span class="far fa-heart"></span></a></div>
+							</div>
+							<div class="lower-box">
+								<div class="location">Istanbul</div>
+								<h5><a href="hotel-single.html">Istanbul Beach Hotel</a></h5>
+								<div class="bottom-box clearfix">
+									<div class="rating"><a href="#" class="theme-btn"><i class="fa-solid fa-star"></i>
+											<strong>4.4</strong> &ensp; <span class="count">456 Reviews</span></a>
+									</div>
+									<div class="price">Start from &ensp;<span class="amount">$450</span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--Block-->
+					<div class="package-block alt col-lg-4 col-md-6 col-sm-12">
+						<div class="inner-box">
+							<div class="image-box">
+								<div class="image"><a href="hotel-single.html"><img
+											src="assets/images/resources/destinations/istanbul-little-sofia-hotel.jpg"
+											alt="Little Sofia"></a></div>
+								<div class="fav-btn"><a href="#"><span class="far fa-heart"></span></a></div>
+							</div>
+							<div class="lower-box">
+								<div class="location">Istanbul</div>
+								<h5><a href="hotel-single.html">Little Sofia Hotel</a>
+								</h5>
+								<div class="bottom-box clearfix">
+									<div class="rating"><a href="#" class="theme-btn"><i class="fa-solid fa-star"></i>
+											<strong>4.9</strong> &ensp; <span class="count">7667 Reviews</span></a>
+									</div>
+									<div class="price">Start from &ensp;<span class="amount">$569</span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!--Main Footer-->
+		<footer class="main-footer style-two">
+			<div class="upper-section">
+				<div class="footer-subscribe">
+					<div class="title-box centered">
+						<div class="subtitle">Get Regular Updates</div>
+						<h2>Subscribe to our Newsletter</h2>
+					</div>
+					<div class="form-box subscribe-form">
+						<form method="post" action="contact.html">
+							<div class="form-group">
+								<div class="field-inner">
+									<input type="email" name="email" value="" placeholder="Type your email here"
+										required>
+								</div>
+								<button type="submit" class="theme-btn"><span>Subscribe</span></button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="auto-container">
+					<div class="content-box">
+						<div class="row clearfix">
+							<div class="footer-column col-xl-4 col-lg-3 col-md-6 col-sm-12">
+								<div class="footer-widget about-widget">
+									<div class="footer-logo"><a href="index.html" title="Travilo"><img
+												src="assets/images/logo-white.png" alt="" title="Travilo"></a></div>
+									<div class="footer-info">
+										<ul class="info">
+											<li class="address"><a href="#"><i class="icon fa fa-map-marker-alt"></i>
+													20, Love Street, Muscat, Oman</a></li>
+											<li class="phone"><a href="tel:+96899999000"><i
+														class="icon fa-solid fa-phone"></i>
+													+96899999000</a></li>
+											<li class="email"><a href="mailto:hello@travilo.com"><i
+														class="icon fa fa-envelope"></i>
+													hello@travilo.com</a></li>
+										</ul>
+										<ul class="social-links clearfix">
+											<li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+											<li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
+											<li><a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+											<li><a href="#" class="youtube"><i class="fab fa-youtube"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-5 col-lg-6 col-md-6 col-sm-12">
+								<div class="row clearfix">
+
+									<div class="footer-column col-lg-6 col-md-6 col-sm-12">
+										<div class="footer-widget links-widget">
+											<h4>Top Destination</h4>
+											<div class="links">
+												<ul>
+													<li><a href="#">New York</a></li>
+													<li><a href="#">London</a></li>
+													<li><a href="#">Rome</a></li>
+													<li><a href="#">Mascot</a></li>
+													<li><a href="#">Dhaka</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+
+									<div class="footer-column col-lg-6 col-md-6 col-sm-12">
+										<div class="footer-widget links-widget">
+											<h4>Useful Links</h4>
+											<div class="links">
+												<ul>
+													<li><a href="#">About Us</a></li>
+													<li><a href="#">Company Profile</a></li>
+													<li><a href="#">Team Members</a></li>
+													<li><a href="#">Support</a></li>
+													<li><a href="#">Career</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="footer-column col-xl-3 col-lg-3 col-md-6 col-sm-12">
+								<div class="footer-widget app-widget">
+									<h4>Download App</h4>
+									<!--Logo-->
+									<div class="app-info">
+										<p class="travilo-text">Download our user-friendly app for seamless access to
+											real-time updates, and
+											exclusive offers on the go.</p>
+										<div class="links">
+											<div class="link"><a href="#"><img src="assets/images/apple-store.png"
+														alt=""></a></div>
+											<div class="link"><a href="#"><img src="assets/images/play-store.png"
+														alt=""></a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="f-bottom">
+				<div class="auto-container">
+					<div class="inner clearfix">
+						<div class="copyright">All rights researved <strong>Travilo</strong> &copy; 2023</div>
+						<div class="bottom-links">
+							<ul class="clearfix">
+								<li><a href="#">Terms & Conditions</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</footer>
+
+	</div>
+	<!--End pagewrapper-->
+
+	<!--Scroll to top-->
+	<div class="scroll-to-top scroll-to-target" data-target="html">
+		<span class="icon"><img src="assets/images/icons/arrow-up.svg" alt="" title="Go To Top"></span>
+	</div>
+
+	<script src="assets/js/lib/jquery.min.js"></script>
+	<script src="assets/js/lib/popper.min.js"></script>
+	<script src="assets/js/lib/bootstrap/bootstrap.min.js"></script>
+	<script src="assets/js/lib/jquery-ui.min.js"></script>
+	<script src="assets/js/lib/jquery.fancybox.min.js"></script>
+	<script src="assets/js/lib/isotope.min.js"></script>
+	<script src="assets/js/lib/slick.min.js"></script>
+	<script src="assets/js/lib/appear.min.js"></script>
+	<script src="assets/js/lib/wow.min.js"></script>
+	<script src="assets/js/custom-script.js"></script>
+</body>
+
+</html>

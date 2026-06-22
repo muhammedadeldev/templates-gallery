@@ -1,0 +1,929 @@
+
+
+@media screen and (max-width: 1680px){
+  .slider-content {
+    position: absolute;
+    display: block;
+    top: 50%;
+    -webkit-transform: translateY(-180%);
+    -moz-transform: translateY(-180%);
+    -ms-transform: translateY(-180%);
+    -o-transform: translateY(-180%);
+    transform: translateY(-180%);
+    left: 0;
+    width: 100%;
+  }
+  .slider-content p {
+    padding: 0px 300px;
+  }
+}
+
+@media screen and (max-width: 1399px){
+  .slider-content {
+    position: absolute;
+    display: block;
+    top: 50%;
+    -webkit-transform: translateY(-185%);
+    -moz-transform: translateY(-185%);
+    -ms-transform: translateY(-185%);
+    -o-transform: translateY(-185%);
+    transform: translateY(-200%);
+    left: 0;
+    width: 100%;
+  }
+  .slider-content p {
+    padding: 0px 300px;
+  }
+  .slider-content h2 {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 1232.99px){
+  .client .owl-nav .owl-prev{
+    left: -4%;
+  }
+  .client .owl-nav .owl-next{
+    right: -4%;
+  }
+}
+@media screen and (max-width: 1299.98px){
+  .carousel-item img {
+    position: relative;
+    max-height: 800px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1199.98px){
+  .navbar-collapse .navbar-nav .nav-item{
+    margin-right: 1rem !important;
+  }
+  .navbar-nav .contact-btn{
+    margin-left: 0px !important;
+  }
+  .navbar-nav .nav-item .nav-link{
+    padding: 10px;
+  }
+  .navbar-collapse button{
+    margin-top: 20px;
+  }
+  .slider-content h2 {
+    margin-bottom: 0px;
+  }
+  .slider-content p {
+    padding: 0px 250px;
+  }
+  .text-center .under-title {
+    padding: 0px 200px;
+  }
+  .text-center .under-title {
+    padding: 0px 135px;
+  }
+  .text-center .under-title {
+    padding: 0px 135px;
+  }
+  .slider-item{
+    top: 50%;
+  }
+  .blog-content h5{
+    font-size: 18px;
+    line-height: 1.5rem;
+    margin-bottom: 5px;
+  }
+  .blog-inside p{
+    margin-top: 0px;
+    margin-bottom: 1rem;
+  }
+  .blog-btn a{
+    padding: 6px 12px;
+  }
+  .hotel_content {
+    padding: 5px 18px;
+  }
+  .hotel_content h5{
+    font-size: 16px;
+  }
+  .hotel_content .book-btn{
+    margin: 18px 15px 18px;
+  }
+  .hotel_image {
+    margin-bottom: 80%;
+  }
+  .details-inside {
+    margin-bottom: 2.5rem;
+    padding: 30px;
+  }
+  .slider-content {
+    transform: translateY(-175%);
+  } 
+}
+
+
+@media screen and (max-width: 991.98px){
+  .header-top{
+    display: none;
+  }
+  /*.menu-sticky{
+    padding: 0px 0px; 
+  }*/
+  .navbar-collapse .menu-btn .menu-contac-button{
+    padding: 15px 30px;
+  }
+  .navbar-collapse .menu-btn{
+    padding-bottom: 30px;
+  }
+  .dropdown-menu{
+    border-left: 1px solid #ddd !important;
+  }
+  .topbar-socail{
+    justify-content: center !important;
+  }
+  .top-bar-list{
+    display: block !important;
+  }
+  .top-bar-list ul{
+    justify-content: center;
+  }
+  .topbar-ul1:after{
+    display: none;
+  }
+  .topbar-ul2:after{
+    display: none;
+  }
+  .navbar-toggler{
+    border: 1px solid #ddd;
+  }
+  .navbar-toggler{
+    padding: .25rem .45rem;
+    outline: none !important;
+  }
+  .navbar-toggler-icon{
+    width: 40px; 
+    height: 1px; 
+    display: flex; 
+    padding: 1px 0px;
+    background: #ffffff;
+    margin: 6px 0px 4px 0px;
+    background: #ccc;
+  }
+  .navbar-nav {
+    margin-bottom: 40px;
+  }
+  .carousel-indicators {
+    position: absolute;
+    bottom: 5%;
+    z-index: 9;
+    right: 0%;
+    transform: rotate(180deg);
+  }
+  .client .owl-nav .owl-prev{
+    top: 50px;
+  }
+  .client .owl-nav .owl-next{
+    top: 50px;
+  }
+  .about-title .under-title {
+    padding: 0px 0px;
+  }
+  .overlay{
+    left: 3%;
+    width: 94%;
+  }
+  .footer-text{
+    line-height: 2.9rem;
+  }
+  .slider-content p {
+    padding: 0px 140px;
+  } 
+  .serv-content h4{
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+  .about-image,
+  .about-image2{
+    padding-top: 55px;
+  }
+  .about-image img,
+  .about-image2 img{
+    width: 100%;
+  }
+  .vedio-icon a {
+    height: 50px;
+    width: 50px;
+    top: -25px;
+  }
+  .vedio-icon a i{
+    font-size: 26px;
+    padding: 12px 17px;
+  }
+  .text-center .under-title {
+    padding: 0px 50px;
+  }
+  .btn{
+    padding: 10px 48px;
+  }
+  .newsletter-content{
+    text-align: center;
+    padding-left: 0px;
+    margin-bottom: 20px;
+  }
+  .form-inline {
+    justify-content: center;
+  }
+
+  .hotel-contant p {
+    padding: 0px 0px;
+    margin-bottom: 15px;
+  }
+  .hotel-contant a {
+    padding: 6px 9px;
+    border-radius: 3px;
+  }
+  .hotel-overlay{
+    width: 87.8%;
+    height: 100%;
+    left: 6%;
+    top: 0%;
+  }
+  .blog-content img{
+    width: 100%;
+  }
+  .content {
+    margin-left: 60px;
+    }
+  .content {
+    margin-left: 111px;
+    margin-right: 55px;
+  }
+  .blog-content h5{
+    font-size: 20px;
+    line-height: 1.5rem;
+    margin-bottom: 10px;
+  }
+  .team-details img{
+    width: 100%;
+  }
+  .team-details {
+    margin-bottom: 30px;
+  }
+  .team-overlay{
+    height: 93%;
+    width: 90%;
+    left: 5%;
+  }
+
+  .form-control{
+    padding-right: 130px;
+  }
+  .client-say .testimonial {
+    padding: 40px 130px 0px;
+  }
+  .slider-content {
+    transform: translateY(-155%);
+  }
+  .abt-img1 img{
+    width: 100%;
+  }
+
+}
+@media screen and (max-width: 800px){
+  .client-box {
+    height: 30vh;
+  }
+}
+
+
+@media screen and (max-width: 768.98px){
+
+  .navbar-collapse .menu-btn .menu-contac-button{
+    padding: 15px 30px !important;
+  }
+  .breadcrumb-menu h3{
+    font-size: 26px;
+    margin-bottom: 5px;
+  }
+  .breadcrumb li a{
+    font-size: 12px;
+  }
+  .breadcrumb .active {
+    font-size: 12px; 
+  }
+  .btn-content{
+    margin-top: 30px;
+  }
+  .blog-inside2 a h5{
+    margin-top: 1.5rem!important;
+  }
+
+  .overlay {
+    left: 3%;
+    top: 4%;
+    width: 94%;
+    height: 92%;
+  }
+  .slider-content p {
+    padding: 0px 0px;
+  }
+  .slider-content h2 {
+    margin-bottom: 25px;
+    font-size: 40px;
+    line-height: 3rem;
+  }
+  .slider-content {
+    transform: translateY(-120%);
+  }
+  .main{
+    margin-bottom: 40px;
+  }
+  .serv-content h4{
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .vedio-icon a {
+    height: 50px;
+    width: 50px;
+    top: -25px;
+  }
+  .vedio-icon a i{
+    font-size: 26px;
+    padding: 12px 17px;
+  }
+  .text-center .under-title {
+    padding: 0px 0px;
+  }
+  .slider-item {
+    top: 25%;
+    left: 10px;
+  }
+  .port-overlay {
+    width: 100%;
+    left: 0px;
+  }
+  .gallery-details {
+    text-align: center;
+  }
+  .hotel-details img{
+    width: 100%;
+  }
+  .hotel-overlay {
+    width: 86%;
+    height: 100%;
+    left: 7%;
+    top: 0%;
+  }
+  .blog-content img{
+    width: 100%;
+  }
+  .rating {
+    padding: 25px;
+  }
+  .blog-content h5{
+    margin-top: 0rem!important;
+    font-size: 25px;
+  }
+  .blog-btn a {
+    padding: 9px 18px;
+  }
+  .team-overlay{
+    height: 95.5%;
+    width: 94%;
+    left: 3%;
+  }
+  .hotel_image img{
+    width: 100%;
+  }
+  .hotel_content {
+    padding: 5px 30px;
+  }
+  .hotel_content h5 {
+    font-size: 26px;
+  }
+  .hotel_content a {
+    font-weight: 400;
+    padding: 14px 30px;
+  }
+  .hotel_content ul{
+    margin-top: 5px;
+  }
+  .hotel_image {
+    margin-bottom: 60%;
+  }
+  .hotel_content {
+    top: 45%;
+  }
+
+  .details-content img{
+    width: 100%;
+  }
+  .footer-news img {
+    width: 90%;
+  }
+  .client-say .testimonial {
+    padding: 35px 95px 0px;
+  }
+  .client {
+    box-shadow: rgb(246 255 230 / 71%) 0px 2px 4px -3px;
+  }
+  .slider-item {
+    top: 70%;
+    left: 0px;
+  }
+  .client-box {
+    height: 50vh;
+  }
+  .share-list {
+    padding-top: 0px;
+  }
+  .share-list a {
+    display: block;
+    margin-bottom: 10px; /* Add margin between the links */
+  }
+}
+
+@media screen and (max-width: 641px){
+
+  .client-say .testimonial {
+    padding: 40px 85px 0px;
+  }
+  .slider-content {
+    transform: translateY(-120%);
+  }
+  .slider-item {
+    top: 70%;
+    left: 0px;
+  }
+  .breadcrumb-img3{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card-main {
+    padding: 50px 10px
+  }
+  .card-0 {
+    min-height: 432px
+  }
+  .profile {
+    top: 24%
+  }
+  .profile-pic {
+    width: 90px;
+    height: 90px
+  }
+  .open-quotes {
+    margin-left: 100px
+  }
+  .content {
+    margin-left: 120px;
+    margin-right: 50px
+  }
+  .close-quotes {
+    margin-right: 30px
+  }
+  .slider-item {
+    top: 70%;
+    left: 0px;
+  }
+    
+}
+
+
+@media screen and (max-width: 575.98px){
+  .slider-content{
+    transform: translateY(-124%);
+    padding: 0px 20px;
+  }
+  .slider-content h2{
+    font-size: 36px;
+  }
+  .slider-content .slidp2{
+    font-size: 14px;
+  }
+  .client .owl-item img{
+    width: 60%;
+  }
+  .carousel-item img{
+    height: 400px;
+  }
+  .footer-about{
+    margin-top: 30px;
+  }
+  .footer-text{
+    margin-top: 30px;
+  } 
+  .carousel-control-next, .carousel-control-prev{
+    display: none;
+  }
+  .client-box {
+    height: 57vh;
+  }
+  .slider-item {
+    top: 25%;
+    left: 0px;
+  }
+  .port-overlay {
+    width: 68%;
+    left: 86px;
+  }
+  .overlay-icon a{
+    left: 46%;
+    top: 44%;
+  }
+  .btn{
+    padding: 11px 50px;
+  }
+  .comma-image img {
+    height: 90px;
+  }
+  .card-0 {
+    min-height: 316px;
+  }
+  .client-pera img{
+  height: 20px;
+  }
+  .footer-news img {
+    width: 30%;
+  }
+  .client-say .testimonial {
+    padding: 10px 80px 0px;
+  }
+  .carousel-item p{
+    margin-bottom: 10px;
+  }
+  .contact-btn input{
+    margin-bottom: 40px;
+  }
+  .hotel_content {
+    top: 40%;
+  }
+  .subscribe-btn{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: .25rem;
+  }
+  .join-form .pr-0{
+    padding-left: 0;
+  }
+  .join-form .pl-0{
+    padding-right: 0;
+  }
+  .join-form form input {
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+  }
+}
+
+@media screen and (max-width: 540px){
+  .port-overlay {
+    width: 73%;
+    left: 69px;
+  }
+}
+
+@media screen and (max-width: 481px){
+
+  footer .scrollToTop{
+    right: 5px;
+  }
+  .slider-content h2 {
+    font-size: 30px;
+    line-height: 2.5rem;
+    margin-bottom: 18px;
+  }
+  .hotel_content a {
+    font-weight: 500;
+  }
+  .hotel_image img {
+    margin-bottom: 50px;
+  }
+  .hotel_content {
+    top: 38%;
+  }
+  .client-say .testimonial {
+    padding: 10px 0px 0px;
+  }
+  .slider-item {
+    top: 42%;
+    left: 10px;
+  }
+  .port-overlay {
+    width: 82%;
+    left: 42px;
+  }
+  .client-box {
+    height: 45vh;
+  }
+
+}
+
+
+@media screen and (max-width: 466.98px){
+
+  .slider-item {
+    top: 56%;
+  }
+  .content {
+    margin-left: 110px;
+    margin-right: 60px;
+  }
+  .blog-content h5{
+    font-size: 20px;
+  }
+  .team-overlay {
+    height: 95%;
+  }
+  .slider-item {
+    top: 32%;
+  }
+  .client-say .testimonial {
+    padding: 10px 0px 0px;
+  }
+  .port-overlay {
+    width: 92%;
+    left: 16px;
+  }
+
+}
+
+@media screen and (max-width: 414.98px){
+  .client .owl-nav .owl-prev {
+    top: 45px;
+  }
+  .client .owl-nav .owl-next {
+    top: 45px;
+  }
+  .footer-about {
+    margin-top: -45px;
+  }
+  .footer-text{
+    margin-top: 30px;
+  }
+  .slider-content h2 {
+    font-size: 25px;
+    line-height: 2rem;
+    margin-bottom: 15px;
+  }
+  .vedio-icon a {
+    height: 40px;
+    width: 40px;
+  }
+  .vedio-icon a i{
+    font-size: 20px;
+    padding: 10px 14px;
+  }
+  .slider-item{
+    top: 65%;
+    left: -14px;
+  }
+  .hotel_content h5 {
+    font-size: 18px;
+  }
+  .hotel_content {
+    padding: 5px 15px;
+  }
+  .hotel_content .book-btn {
+    margin: 15px 10px 15px;
+  }
+  .hotel_content a {
+    font-weight: 500;
+    padding: 8px 24px;
+    margin-top: 0px;
+  }
+  .hotel_content {
+    top: 40%;
+  }
+  .slider-item {
+    top: 35%;
+    left: 0px;
+  }
+  .client-say .testimonial {
+    padding: 10px 5px 0px;
+  }
+  .port-overlay {
+    width: 97%;
+    left: 6px;
+  }
+
+
+}
+
+	
+@media screen and (max-width: 386px){
+
+  .slider-content h2 {
+    font-size: 25px;
+  }
+  .team-overlay {
+    height: 93.5%;
+    width: 92%;
+    left: 4%;
+  }
+  .client-say .testimonial {
+    padding: 10px 10px 0px;
+  }
+  .slider-item {
+    top: 36%;
+    left: -14px;
+  }
+  .port-overlay {
+    width: 100%;
+    left: 0px;
+  }
+}
+
+@media screen and (max-width: 375px){
+
+  .banner_image img {
+    margin-top: 35px;
+  }
+
+  .footer-service h3{
+    margin-top: 20px;
+  }
+  .section-tittle small {
+    top: 0px;
+  }
+  .footer-about{
+    margin-top: -60px;
+  }
+  .vedio_image i {
+    padding: 5px;
+    font-size: 35px;
+  }
+  .overlay {
+    left: 6.5%;
+    top: 9%;
+    width: 87%;
+    height: 82%;
+  }
+  .slider-content h2 {
+    font-size: 22px;
+  }
+  .btn{
+    padding: 10px 35px;
+  }
+  .team-overlay {
+    height: 94%;
+    width: 92%;
+    left: 4%;
+  }
+  .hotel_content h5 {
+    line-height: 1.5rem;
+  }
+  .hotel_content a {
+    padding: 6px 20px;
+  }
+  .hotel_content h5 {
+    font-size: 13px;
+  }
+  .hotel-overlay {
+    width: 92%;
+    height: 100%;
+    left: 4%;
+    top: 0%;
+  }
+
+  .port-overlay {
+    width: 100%;
+    left: 0px;
+  }
+  .about-subtitle h3{
+    font-size: 22px;
+  }
+  .client-box {
+    height: 55vh;
+  }
+}
+
+@media  screen and (max-width: 347px){
+  .client-pera {
+    background-color: #007acc;
+    border-radius: 15px;
+    position: absolute;
+    left: -72px;
+    top: -21px;
+  }
+  .team-overlay{
+    height: 93%;
+    width: 90%;
+    left: 5%;
+  }
+  .img-text{
+    width: 45%;
+  }
+}
+
+
+@media screen and (max-width: 320px){
+
+  .breadcrumb-menu h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  .span_btwn{
+    margin-bottom: 5px;
+
+  }
+  .slider-content h2 {
+    font-size: 20px;
+  }
+  .slider-item {
+    top: 42%;
+    left: 10px;
+  }
+  .slider-item h5, .slider-item i {
+    font-size: 14px;
+  }
+  .form-control{
+    padding-right: 120px;
+    font-size: 12px;
+  }
+  .hotel_content ul {
+    margin-top: 0px;
+  }
+  .hotel_content h5 {
+    font-size: 12px;
+  }
+  .hotel_content {
+    padding: 5px 7px;
+  }
+  .hotel-overlay {
+    width: 92%;
+    height: 100%;
+    left: 4%;
+    top: 0%;
+  }
+  .client-box {
+    height: 60vh;
+  }
+
+  .details-inside h5{
+    font-size: 16px;
+    line-height: 1.5rem;
+  }
+  .footer-news img {
+    width: 30%;
+  }
+
+}
+
+
+
+@media screen and (max-width: 281px){
+  .slider-content h2 {
+    font-size: 17px;
+  }
+  .slider-item h5, .slider-item i {
+    font-size: 14px;
+  }
+  .carousel-item p {
+    margin-bottom: 30px;
+  }
+  .slider-item{
+    top: 88%;
+    left: -16px;
+  }
+  .form-control{
+    padding-right: 70px;
+  }
+  .btn {
+    padding: 7px 20px;
+  }
+  .team-overlay{
+    height: 91%;
+    width: 88%;
+    left: 6%;
+  }
+
+  .details-btn a {
+    font-weight: 200;
+    padding: 7px 14px;
+  }
+
+  .client-say .testimonial {
+    padding: 5px 0px 0px;
+  }
+  .blog-inside .date {
+    padding: 0px 17px;
+  }
+}
+@media screen and (max-width: 281px){
+  .client-box {
+    height: 70vh;
+  }
+  .blog-inside .date {
+    padding: 0px 6px;
+  }
+  .slider-item {
+    top: 60%;
+    left: 0px;
+  }
+  .about-subtitle h3{
+    font-size: 22px;
+    line-height: 2rem;
+  }
+}
+/*New responsive css*/
